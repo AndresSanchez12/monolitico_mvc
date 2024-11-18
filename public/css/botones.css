@@ -1,0 +1,33 @@
+/* Estilo para la celda que contiene el botón */
+.celda-modificar {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    align-items: center;
+    margin-left: 6px;
+}
+
+/* Estilo para el botón, quitamos bordes y fondos */
+.boton-modificar {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Estilo para la imagen, controlando el tamaño */
+.imagen-modificar {
+    width: 28px; /* Puedes ajustar el tamaño */
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.imagen-modificar:hover {
+    transform: scale(1.1); /* Efecto hover para agrandar ligeramente */
+}
+
+/**/
+

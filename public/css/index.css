@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  display: inline-block;
+  background-color: #3385dc;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #074d98;
+}
+
+/* Estilo general de la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de las celdas de la tabla */
+table th, table td {
+  padding: 12px;
+  text-align:center;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Estilo de los encabezados de la tabla */
+table th {
+  background-color: #4e9ef5;
+  color: #fff;
+  font-weight: 400;
+  padding: 10px;
+}
+
+/* Filas alternas de la tabla (par) */
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Estilo de las filas con el estado de impedimento */
+table .estado-impedimento {
+  background-color: #ff4d4d !important;
+  color: white;
+}
+
